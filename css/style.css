@@ -1,3 +1,9 @@
+html {
+    margin-left: 30px;
+    margin-right: 30px;
+    background: linear-gradient(to bottom, rgba(192,57,43, 1), rgba(52,115,118, 0.1)) fixed;
+    background-repeat: no-repeat;
+}
 .title {
     text-align: center;
 }
