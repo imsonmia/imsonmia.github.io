@@ -1,0 +1,82 @@
+@mixin center-content() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin regular-spacing-smooth-solid-border() {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: cadetblue;
+    border-radius: 8px;
+}
+#header {
+    margin-top: 30px;
+}
+h1 {
+    margin-top: 60px;
+    color: darkolivegreen;
+    font-family: monospace;
+    font-size: 50px;
+}
+.card-r1 {
+    @include center-content();
+    margin: auto;
+    width: auto;
+    padding: 5px;
+    border-style: solid;
+    background-color: darkturquoise;
+    h2 {
+        font-family: sans-serif;
+    }
+}
+.generic-textbox {
+    @include regular-spacing-smooth-solid-border();
+    width: auto;
+    padding: 10px;
+    .title {
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #useragent {
+        margin-top: 8px;
+        box-sizing: border-box;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: rgb(235, 224, 224);
+        p {
+            font-family: monospace;
+            color: crimson;
+        }
+    }
+}
+.fixed-head {
+    margin-top: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-self: center;
+    background-color: rgba(0, 128, 0, 0.486);
+    position: fixed;
+    top: 20px;
+    a {
+        float: none;
+        border-radius: 4px;
+        border: rgba(0, 128, 0, 0.486);
+        border-style: dashed;
+    }
+}
+.card-booknote {
+    margin: 10px;
+    padding: 5px;
+    background: linear-gradient(beige,rgb(243, 243, 94));
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 10px 5px 5px gray;
+    float: left;
+    width: 300px;
+    height: 400px;
+    h2 {
+        font-size: 40px;
+    }
+}
