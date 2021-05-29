@@ -19,11 +19,15 @@ function userAgentThings() {
 function bookOliverTwist() {
     location.assign('./src/booknotes/olivertwist.html');
 }
-function enlargeOliverTwist(obj) {
-    obj.style.width = '350px';
-    obj.style.height = '450px';
+function bookFrankenstein() {
+    location.assign('./src/booknotes/frankenstein.html');
 }
-function normalOliverTwist(obj) {
+function bookKiteRunner() {
+    location.assign('./src/booknotes/kiterunner.html')
+}
+function enlarge(obj) {
+    obj.style.width = '350px';
+}
+function normal(obj) {
     obj.style.width = '300px';
-    obj.style.height = '400px';
 }
