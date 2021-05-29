@@ -72,4 +72,21 @@ h1 {
 .fixed-head a {
   float: none;
 }
+
+.card-booknote {
+  margin-top: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(beige), to(#f3f35e));
+  background: linear-gradient(beige, #f3f35e);
+  border-radius: 10px;
+  border-style: solid;
+  -webkit-box-shadow: 10px 5px 5px gray;
+          box-shadow: 10px 5px 5px gray;
+  float: left;
+  width: 300px;
+  height: 400px;
+}
+
+.card-booknote h2 {
+  font-size: 40px;
+}
 /*# sourceMappingURL=style_src.css.map */

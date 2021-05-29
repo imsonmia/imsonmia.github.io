@@ -14,3 +14,16 @@ function userAgentThings() {
     txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
     document.getElementById('useragent').innerHTML = txt
 }
+
+//Book Notes Related
+function bookOliverTwist() {
+    location.assign('./src/booknotes/olivertwist.html');
+}
+function enlargeOliverTwist(obj) {
+    obj.style.width = '350px';
+    obj.style.height = '450px';
+}
+function normalOliverTwist(obj) {
+    obj.style.width = '300px';
+    obj.style.height = '400px';
+}
