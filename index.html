@@ -7,12 +7,14 @@
     <title>Imsonmia's GitHub Website</title>
     <script src='src/script/script.js'></script>
     <link rel="stylesheet" type="text/css" href="src/scss/style_src.css">
+    <link rel="icon" type="image/png" href="./favicon.png">
 </head>
 <body>
     <div class='fixed-head'>
         <a href='#about'>AboutMe</a>
         <a href='#projects'>Projects</a>
         <a href='#gadgets'>FunStuff</a>
+        <a href='#booknote'>Booknotes</a>
     </div>
     <div class='header' id='title'>
         <h1>Imsonmia's GitHub Pages Site</h1>
@@ -32,13 +34,13 @@
     </div>
     <div class='generic-textbox' id='gadgets'>
         <h2 class='title'>Fun Stuff</h2>
-        <button onclick=userAgentThings()>userAgentThings</button>
+        <button onclick=userAgentThings()>Show me some browser info!</button>
         <div id='useragent'></div>
     </div>
     <div class='card-r1'>
         <h2>Book Notes</h2>
     </div>
-    <div class='card-booknote' onclick=bookOliverTwist() onmouseover=enlargeOliverTwist(this) onmouseout=normalOliverTwist(this)>
+    <div class='card-booknote' id='booknote' onclick=bookOliverTwist() onmouseover=enlargeOliverTwist(this) onmouseout=normalOliverTwist(this)>
         <h2>Oliver Twist</h2>
         <hr />
         <p><b>Author: </b>Charles Dickens</p>
