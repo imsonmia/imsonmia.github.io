@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imsonmia's GitHub Website</title>
+    <script src='src/script/script.js'></script>
+    <link rel="stylesheet" type="text/css" href="src/scss/style_src.css">
 </head>
 <body>
-    
+    <div class='fixed-head'>
+        <a href='#about'>AboutMe</a>
+        <a href='#projects'>Projects</a>
+        <a href='#gadgets'>FunStuff</a>
+    </div>
+    <div class='header' id='title'>
+        <h1>Imsonmia's GitHub Pages Site</h1>
+        <hr />
+    </div>
+    <div class='card-r1' id='card-r1'>
+        <h2>About Me</h2>
+    </div>
+    <div class='generic-textbox' id='about'>
+        <h2 class='title'>About Me</h2>
+        <hr />
+        <p>I am a student from China.</p>
+    </div>
+    <div class='generic-textbox' id='projects'>
+        <h2 class='title'>My Projects</h2>
+        <button onclick=jumpGitHubHome()>Click me to go to my GitHub Homepage!</button>
+    </div>
+    <div class='generic-textbox' id='gadgets'>
+        <h2 class='title'>Fun Stuff</h2>
+        <button onclick=userAgentThings()>userAgentThings</button>
+        <div id='useragent'></div>
+    </div>
 </body>
 </html>
