@@ -52,7 +52,6 @@ h1 {
     }
 }
 .fixed-head {
-    margin-top: 5px;
     padding: 10px;
     box-sizing: border-box;
     align-self: center;
@@ -64,6 +63,12 @@ h1 {
         border-radius: 4px;
         border: rgba(0, 128, 0, 0.486);
         border-style: dashed;
+    }
+    #row0 {
+        margin-top: 5px;
+    }
+    #row1 {
+        margin-top: 20px;
     }
 }
 .card-booknote {

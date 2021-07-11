@@ -2,6 +2,9 @@
 function jumpGitHubHome() {
     location.assign('https://github.com/imsonmia')
 }
+function jumpHome() {
+    location.assign('../../index.html')
+}
 function userAgentThings() {
     var txt = "";
     txt += "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
