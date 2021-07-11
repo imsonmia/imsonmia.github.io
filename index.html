@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="src/scss/style_src.css">
     <link rel="icon" type="image/png" href="./favicon.png">
 </head>
+
 <body>
     <div class='fixed-head' id='row0'>
         <a href='#about'>AboutMe</a>
@@ -19,7 +21,7 @@
     </div>
     <div class='header' id='title'>
         <h1>Imsonmia's GitHub Pages Site</h1>
-        <h3>(Just Don't Think You'll Get Anything Useful Out of Here. It's Just for Fun)</h3>
+        <h3>(Just Don't Assume You'll Get Anything Useful Out of Here. It's Just for Fun)</h3>
         <hr />
     </div>
     <div class='card-r1' id='card-r1'>
@@ -28,7 +30,14 @@
     <div class='generic-textbox' id='about'>
         <h2 class='title'>About Me</h2>
         <hr />
-        <p>I am a student from China.</p>
+        <p>I am a student from China, somewhat interested in writing Python and do various things, seemingly at random.
+        </p>
+        <p>I also part own and run a Minecraft Server Network, IP: <code>play.eternaldong.com:52882</code></p>
+        <h3>Get In Touch</h3>
+        <ul>
+            <li>Email: <a href="mailto:imsonmia@outlook.com">imsonmia@outlook.com</a></li>
+            <li>YT/Twitter/BiliBili: Imsonmia</li>
+        </ul>
     </div>
     <div class='generic-textbox' id='projects'>
         <h2 class='title'>My Projects</h2>
@@ -39,21 +48,41 @@
         <button onclick=userAgentThings()>Show me some browser info!</button>
         <div id='useragent'></div>
     </div>
+    <div class="card-r1" , id="qanda">
+        <h2>Q&A</h2>
+    </div>
+    <div class="generic-textbox">
+        <h2>#1: Why didn't you include a background in this page?</h2>
+        <h3>A1: Because backgrounds are annoying and displeasing to fiddle with.</h3>
+        <hr />
+        <h2>#2: Why didn't you make this page responsive?</h2>
+        <h3>A2: I have to say that I am highly unprofessional at site building, this site is purely just for consuming time doing stuff that feels important lol</h3>
+    </div>
     <div class='card-r1'>
         <h2>Book Notes</h2>
     </div>
-    <div class='card-booknote' id='booknote' onclick=bookOliverTwist() onmouseover=enlarge(this) onmouseout=normal(this)>
+    <div class='card-booknote' id='booknote' onclick=bookOliverTwist() onmouseover=enlarge(this)
+        onmouseout=normal(this)>
         <h2>Oliver Twist</h2>
         <hr />
         <p><b>Author: </b>Charles Dickens</p>
-        <p>Oliver Twist is an English novel. With a lot of Dickens-style irony, it is the best of English literature.</p>
+        <p><b>Description: </b>Oliver Twist is an English novel. With a lot of Dickens-style irony, it is the best of English literature.
+        </p>
         <p><b>Current Progress: </b></p>
     </div>
-    <div></div>
-    <div class='card-booknote' id='booknote' onclick=bookFrankenstein() onmouseover=enlarge(this) onmouseout=normal(this)>
+
+    <div class='card-booknote' id='booknote' onclick=bookFrankenstein() onmouseover=enlarge(this)
+        onmouseout=normal(this)>
         <h2>Frankenstein</h2>
+        <hr />
+        <p><b>Author: </b>Mary Shelley</p>
+        <p><b>Description: </b>N/A</p>
+        <p><b>Current progress: </b>Read more than half.</p>
     </div>
-    <div class='card-booknote' id='booknote' onclick=bookKiteRunner() onmouseover=enlarge(this) onmouseout=normalw(this)>
+    <div class='card-booknote' id='booknote' onclick=bookKiteRunner() onmouseover=enlarge(this)
+        onmouseout=normalw(this)>
         <h2>Kite Runner</h2>
+
 </body>
+
 </html>
